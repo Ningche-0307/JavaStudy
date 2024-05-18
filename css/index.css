@@ -1,0 +1,109 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+/* 头部 */
+header {
+  height: 1.17333333rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.4rem;
+}
+header .icon-left {
+  display: inline-block;
+  width: 1.6rem;
+  font-size: 0.64rem;
+}
+header h3 {
+  font-size: 0.45333333rem;
+}
+header .note {
+  font-size: 0.4rem;
+  color: #2cb5a5;
+}
+/* banner区域 */
+.banner {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+.banner img {
+  margin-bottom: 0.48rem;
+  width: 6.4rem;
+  height: 5.49333333rem;
+}
+.banner p {
+  font-size: 0.42666667rem;
+}
+.banner p span {
+  color: #16c2a3;
+}
+/* 问诊类型 */
+.type {
+  padding: 0 0.4rem;
+}
+.type li {
+  padding: 0 0.4rem;
+  margin-bottom: 0.4rem;
+  border-radius: 0.10666667rem;
+  border: 0.02666667rem solid #ededed;
+}
+.type li a {
+  display: flex;
+  align-items: center;
+  height: 2.08rem;
+}
+.type li .pic img {
+  height: 1.06666667rem;
+  width: 1.06666667rem;
+  margin-right: 0.37333333rem;
+}
+.type li .txt {
+  flex: 1;
+}
+.type li .txt h4 {
+  font-size: 0.42666667rem;
+  color: #3c3e42;
+  line-height: 0.64rem;
+}
+.type li .txt p {
+  font-size: 0.34666667rem;
+  color: #848484;
+}
+.type li .icon-right {
+  font-size: 0.42666667rem;
+}
